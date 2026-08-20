@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House Reset</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>House Reset</h1>
+
+    <form id="task-form">
+      <input
+        id="task-input"
+        type="text"
+        placeholder="What needs to get done?"
+        required
+      />
+
+      <input
+        id="category-input"
+        type="text"
+        placeholder="Category"
+      />
+
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="task-list"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
